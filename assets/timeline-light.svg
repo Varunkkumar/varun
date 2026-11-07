@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 190" width="900" height="190" role="img" aria-label="Timeline: velammal, first builds, cmrl, chennai airport, graduated, scrapify ecotech.">
+<defs><filter id="glow" filterUnits="userSpaceOnUse" x="-50" y="-50" width="1000" height="300"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<style>
+  * { vector-effect: non-scaling-stroke; }
+  .all { animation: life 9s linear infinite; }
+  @keyframes life { 0%, 94% { opacity: 1; } 100% { opacity: 0; } }
+  .base { fill: none; stroke: #2a2b2e; stroke-width: 1; stroke-dasharray: 100; animation: draw 9s linear infinite; }
+  @keyframes draw { 0% { stroke-dashoffset: 100; } 55%, 100% { stroke-dashoffset: 0; } }
+  .prog { fill: none; stroke: #2dd4bf; stroke-width: 2.4; stroke-linecap: round; stroke-dasharray: 5 95; stroke-dashoffset: 0; animation: go 9s linear infinite; }
+  @keyframes go { 0% { stroke-dashoffset: 0; opacity: 1; } 55% { stroke-dashoffset: -95; opacity: 1; } 58%, 100% { stroke-dashoffset: -95; opacity: 0; } }
+  .dot { fill: #ffffff; stroke: #2a2b2e; stroke-width: 1.2; }
+  .now { fill: #2dd4bf; stroke: #2dd4bf; }
+  .ring { fill: none; stroke: #2dd4bf; stroke-width: 1.5; transform-box: fill-box; transform-origin: center; animation: ring 2s ease-out infinite; }
+  @keyframes ring { from { transform: scale(1); opacity: .9; } to { transform: scale(3.2); opacity: 0; } }
+.s0 { opacity: 1; transform-box: fill-box; transform-origin: center; animation: pop0 9s linear infinite both; }
+@keyframes pop0 { 0%, 3.3% { opacity: 0; transform: scale(0); } 5.4% { opacity: 1; transform: scale(1.35); } 7.4% { opacity: 1; transform: scale(1); } 100% { opacity: 1; transform: scale(1); } }
+.s1 { opacity: 1; transform-box: fill-box; transform-origin: center; animation: pop1 9s linear infinite both; }
+@keyframes pop1 { 0%, 12.9% { opacity: 0; transform: scale(0); } 15.0% { opacity: 1; transform: scale(1.35); } 17.0% { opacity: 1; transform: scale(1); } 100% { opacity: 1; transform: scale(1); } }
+.s2 { opacity: 1; transform-box: fill-box; transform-origin: center; animation: pop2 9s linear infinite both; }
+@keyframes pop2 { 0%, 22.6% { opacity: 0; transform: scale(0); } 24.7% { opacity: 1; transform: scale(1.35); } 26.7% { opacity: 1; transform: scale(1); } 100% { opacity: 1; transform: scale(1); } }
+.s3 { opacity: 1; transform-box: fill-box; transform-origin: center; animation: pop3 9s linear infinite both; }
+@keyframes pop3 { 0%, 32.2% { opacity: 0; transform: scale(0); } 34.3% { opacity: 1; transform: scale(1.35); } 36.3% { opacity: 1; transform: scale(1); } 100% { opacity: 1; transform: scale(1); } }
+.s4 { opacity: 1; transform-box: fill-box; transform-origin: center; animation: pop4 9s linear infinite both; }
+@keyframes pop4 { 0%, 41.9% { opacity: 0; transform: scale(0); } 44.0% { opacity: 1; transform: scale(1.35); } 46.0% { opacity: 1; transform: scale(1); } 100% { opacity: 1; transform: scale(1); } }
+.s5 { opacity: 1; transform-box: fill-box; transform-origin: center; animation: pop5 9s linear infinite both; }
+@keyframes pop5 { 0%, 51.5% { opacity: 0; transform: scale(0); } 53.6% { opacity: 1; transform: scale(1.35); } 55.6% { opacity: 1; transform: scale(1); } 100% { opacity: 1; transform: scale(1); } }
+  
+  .t1 { fill: #1d1e20; font: 12px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+  .t2 { fill: #6b6d72; font: 10.5px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+  .lab { fill: #6b6d72; font: 10px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: 1.5px; }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+</style>
+<text class="lab" x="40" y="30">THE ROAD SO FAR</text>
+<g class="all">
+<path class="base" pathLength="100" d="M40,80 L860,80"/>
+<path class="prog" pathLength="100" d="M40,80 L860,80"/>
+<g class="s0"><circle class="dot" cx="90" cy="80" r="5"/></g>
+<g class="s0"><text class="t1" x="90" y="106" text-anchor="middle">velammal</text><text class="t2" x="90" y="122" text-anchor="middle">ece</text></g>
+<g class="s1"><circle class="dot" cx="234" cy="80" r="5"/></g>
+<g class="s1"><text class="t1" x="234" y="106" text-anchor="middle">first builds</text><text class="t2" x="234" y="122" text-anchor="middle">water level · voice car</text></g>
+<g class="s2"><circle class="dot" cx="378" cy="80" r="5"/></g>
+<g class="s2"><text class="t1" x="378" y="106" text-anchor="middle">cmrl</text><text class="t2" x="378" y="122" text-anchor="middle">in-plant training</text></g>
+<g class="s3"><circle class="dot" cx="522" cy="80" r="5"/></g>
+<g class="s3"><text class="t1" x="522" y="106" text-anchor="middle">chennai airport</text><text class="t2" x="522" y="122" text-anchor="middle">operations intern '23</text></g>
+<g class="s4"><circle class="dot" cx="666" cy="80" r="5"/></g>
+<g class="s4"><text class="t1" x="666" y="106" text-anchor="middle">graduated</text><text class="t2" x="666" y="122" text-anchor="middle">b.e. ece</text></g>
+<g class="s5"><circle class="ring" cx="810" cy="80" r="6"/><circle class="now" cx="810" cy="80" r="6"/></g>
+<g class="s5"><text class="t1" x="810" y="106" text-anchor="middle">scrapify ecotech</text><text class="t2" x="810" y="122" text-anchor="middle">now</text></g>
+</g>
+</svg>

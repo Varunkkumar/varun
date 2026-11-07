@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 240" width="360" height="240" role="img" aria-label="Water level: sensors · leds">
+<defs><filter id="glow" filterUnits="userSpaceOnUse" x="-400" y="-400" width="1200" height="1000"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<style>
+  * { vector-effect: non-scaling-stroke; }
+  .face rect, .tyre { fill: #ffffff; stroke: #2a2b2e; stroke-width: 1; }
+  .face rect.top { fill: #f9fbfb; } .face rect.side { fill: #e6ecee; }
+  .acc rect, .acc rect.top, .acc rect.side { fill: #2dd4bf; stroke: #2dd4bf; }
+  .detail { fill: none; stroke: #c9c8c2; stroke-width: 1; }
+  .glass { fill: #e6ecee; stroke: #c9c8c2; stroke-width: 1; }
+  .wire { fill: none; stroke: #2a2b2e; stroke-width: 1.2; }
+  .pulse { fill: none; stroke: #2dd4bf; stroke-width: 2.4; stroke-linecap: round; stroke-dasharray: 14 86; animation: run 2.4s linear infinite; animation-delay: var(--d, 0s); }
+  .atk { stroke-dasharray: 8 92; stroke-width: 3; animation-duration: .9s; }
+  @keyframes run { from { stroke-dashoffset: 100; } to { stroke-dashoffset: 0; } }
+  .blink rect { animation: blink 1.4s steps(1) infinite; animation-delay: var(--d, 0s); }
+  @keyframes blink { 0%, 49% { fill: #2dd4bf; stroke: #2dd4bf; } 50%, 100% { fill: #ffffff; } }
+  .dotc { fill: #ffffff; stroke: #2a2b2e; stroke-width: 1; animation: dot 2s steps(1) infinite; animation-delay: var(--d, 0s); }
+  @keyframes dot { 0%, 20% { fill: #2dd4bf; stroke: #2dd4bf; } 21%, 100% { fill: #ffffff; stroke: #2a2b2e; } }
+  .phone { animation: lit 2.4s ease-in-out infinite; }
+  @keyframes lit { 0%, 55% { fill: #e6ecee; } 70%, 100% { fill: #2dd4bf; } }
+  .stopline { fill: none; stroke: #2dd4bf; stroke-width: 1.2; stroke-dasharray: 4 3; }
+  .bar { fill: #2dd4bf; }
+  .chk { fill: none; stroke: #2a2b2e; stroke-width: 1; }
+  .chkf { fill: #2dd4bf; opacity: 1; animation: fillin 3.2s linear infinite both; animation-delay: var(--d, 0s); }
+  @keyframes fillin { 0%, 15% { opacity: 0; } 25%, 80% { opacity: 1; } 95%, 100% { opacity: 0; } }
+  .water { fill: #2dd4bf; fill-opacity: .25; stroke: #2dd4bf; stroke-width: 1.2; }
+  .draw { fill: none; stroke: #2dd4bf; stroke-width: 1.6; stroke-dasharray: 100; animation: draw 4s ease-out infinite; }
+  @keyframes draw { 0% { stroke-dashoffset: 100; } 70%, 90% { stroke-dashoffset: 0; } 100% { stroke-dashoffset: -100; } }
+  
+.water-g { transform-box: view-box; animation: rise 6s linear infinite; }
+@keyframes rise { 0%, 100% { transform: translate(0px, 0px); } 50% { transform: translate(0px, -26px); } }
+  .fig { fill: #6b6d72; font: 10px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: 1px; }
+  .chip { fill: #1d1e20; font: 10px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+  .title { fill: #1d1e20; font: 600 16px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+  .tag { fill: #6b6d72; font: 11px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+</style>
+<rect x=".5" y=".5" width="359" height="239" rx="12" fill="#eef2f3" stroke="#c9c8c2"/>
+<text class="fig" x="14" y="22">FIG 08</text>
+<rect x="262" y="9" width="84" height="19" rx="9.5" fill="none" stroke="#2dd4bf" stroke-width="1"/><text class="chip" x="304.0" y="22" text-anchor="middle">live in 3d ▸</text>
+<g transform="translate(164.4 95.8) scale(1.0305)">
+<g class="face"><rect class="top" transform="matrix(0.8660 0.5000 -0.8660 0.5000 0.00 -4.00)" width="70" height="70"/><rect transform="matrix(0.8660 0.5000 0.0000 1.0000 -60.62 31.00)" width="70" height="4"/><rect class="side" transform="matrix(0.8660 -0.5000 0.0000 1.0000 0.00 66.00)" width="70" height="4"/></g>
+<g class="face"><rect class="top" transform="matrix(0.8660 0.5000 -0.8660 0.5000 0.00 -60.00)" width="70" height="3"/><rect transform="matrix(0.8660 0.5000 0.0000 1.0000 -2.60 -58.50)" width="70" height="56"/><rect class="side" transform="matrix(0.8660 -0.5000 0.0000 1.0000 58.02 -23.50)" width="3" height="56"/></g>
+<g class="face"><rect class="top" transform="matrix(0.8660 0.5000 -0.8660 0.5000 -2.60 -58.50)" width="3" height="67"/><rect transform="matrix(0.8660 0.5000 0.0000 1.0000 -60.62 -25.00)" width="3" height="56"/><rect class="side" transform="matrix(0.8660 -0.5000 0.0000 1.0000 -58.02 -23.50)" width="67" height="56"/></g>
+<g class="water-g"><g transform="matrix(0.8660 0.5000 -0.8660 0.5000 0.00 -14.00)"><rect class="water" x="3" y="3" width="67" height="67"/></g></g>
+<g class="face"><rect class="top" transform="matrix(0.8660 0.5000 -0.8660 0.5000 -58.02 -26.50)" width="3" height="3"/><rect transform="matrix(0.8660 0.5000 0.0000 1.0000 -60.62 -25.00)" width="3" height="56"/><rect class="side" transform="matrix(0.8660 -0.5000 0.0000 1.0000 -58.02 -23.50)" width="3" height="56"/></g>
+<g class="face"><rect class="top" transform="matrix(0.8660 0.5000 -0.8660 0.5000 0.00 7.00)" width="3" height="3"/><rect transform="matrix(0.8660 0.5000 0.0000 1.0000 -2.60 8.50)" width="3" height="56"/><rect class="side" transform="matrix(0.8660 -0.5000 0.0000 1.0000 0.00 10.00)" width="3" height="56"/></g>
+<g class="face"><rect class="top" transform="matrix(0.8660 0.5000 -0.8660 0.5000 58.02 -26.50)" width="3" height="3"/><rect transform="matrix(0.8660 0.5000 0.0000 1.0000 55.43 -25.00)" width="3" height="56"/><rect class="side" transform="matrix(0.8660 -0.5000 0.0000 1.0000 58.02 -23.50)" width="3" height="56"/></g>
+<g class="face blink" style="--d:0.0s"><rect class="top" transform="matrix(0.8660 0.5000 -0.8660 0.5000 78.81 41.50)" width="10" height="10"/><rect transform="matrix(0.8660 0.5000 0.0000 1.0000 70.15 46.50)" width="10" height="8"/><rect class="side" transform="matrix(0.8660 -0.5000 0.0000 1.0000 78.81 51.50)" width="10" height="8"/></g>
+<g class="face blink" style="--d:0.5s"><rect class="top" transform="matrix(0.8660 0.5000 -0.8660 0.5000 64.95 49.50)" width="10" height="10"/><rect transform="matrix(0.8660 0.5000 0.0000 1.0000 56.29 54.50)" width="10" height="8"/><rect class="side" transform="matrix(0.8660 -0.5000 0.0000 1.0000 64.95 59.50)" width="10" height="8"/></g>
+<g class="face blink" style="--d:1.0s"><rect class="top" transform="matrix(0.8660 0.5000 -0.8660 0.5000 51.10 57.50)" width="10" height="10"/><rect transform="matrix(0.8660 0.5000 0.0000 1.0000 42.44 62.50)" width="10" height="8"/><rect class="side" transform="matrix(0.8660 -0.5000 0.0000 1.0000 51.10 67.50)" width="10" height="8"/></g>
+<g class="face blink" style="--d:1.5s"><rect class="top" transform="matrix(0.8660 0.5000 -0.8660 0.5000 37.24 65.50)" width="10" height="10"/><rect transform="matrix(0.8660 0.5000 0.0000 1.0000 28.58 70.50)" width="10" height="8"/><rect class="side" transform="matrix(0.8660 -0.5000 0.0000 1.0000 37.24 75.50)" width="10" height="8"/></g>
+</g>
+<text class="title" x="14" y="206">Water level</text>
+<text class="tag" x="14" y="224">sensors · leds</text>
+</svg>

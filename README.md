@@ -1,4 +1,3 @@
-# varun
 <a href="https://varunkkumar.github.io/3d/#ef">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
@@ -103,8 +102,8 @@ bigger ones i'm in the middle of. each has a working model in the lab while the 
 ## numbers
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Varunkkumar/Varunkkumar/output/snake-dark.svg">
-  <img alt="my contribution graph being eaten by a snake" src="https://raw.githubusercontent.com/Varunkkumar/Varunkkumar/output/snake-light.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Varunkkumar/varun/output/snake-dark.svg">
+  <img alt="my contribution graph being eaten by a snake" src="https://raw.githubusercontent.com/Varunkkumar/varun/output/snake-light.svg" width="100%">
 </picture>
 
 <details>
